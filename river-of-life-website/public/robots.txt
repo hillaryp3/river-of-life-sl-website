@@ -1,0 +1,5 @@
+# robots.txt for River of Life Church
+User-agent: *
+Allow: /
+
+Sitemap: https://riveroflife.church/sitemap.xml

@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prayer Ministry | River of Life Church</title>
+  <meta name="description" content="Submit a prayer request, join our Prayer Room in Second Life, and learn about the River of Life prayer ministry." />
+  <meta name="theme-color" content="#6090B3" />
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+  <link rel="canonical" href="https://riveroflife.church/prayer/" />
+  <link rel="stylesheet" href="../assets/css/global.css" />
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="../">
+      <img src="../assets/favicon.svg" alt="" width="40" height="40" />
+      <span>
+        <span class="logo-name">River of Life</span>
+        <span class="logo-tag">Church in Second Life</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">☰</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="../about/">About</a></li>
+        <li><a href="../worship/">Worship</a></li>
+        <li><a href="../second-life/">New to Second Life</a></li>
+        <li><a href="../ministries/">Ministries</a></li>
+        <li><a href="../events/">Events</a></li>
+        <li><a href="index.html" aria-current="page">Prayer</a></li>
+        <li><a href="../media/">Media</a></li>
+        <li><a href="../connect/">Connect</a></li>
+        <li><a class="nav-cta" href="../visit/">Visit in Second Life</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-header">
+    <div class="container">
+      <h1>Prayer Ministry</h1>
+      <p>We believe prayer is powerful. Bring what's on your heart — we'll carry it with you.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <article>
+        <h2>How It Works</h2>
+        <ol class="step-list">
+          <li><div><strong>Share your request.</strong> Use the form below — tell us what you're praying about, and how you'd like us to handle it.</div></li>
+          <li><div><strong>We pray.</strong> Our prayer team and the wider church intercede on your behalf.</div></li>
+          <li><div><strong>We keep in touch.</strong> If you opt in, we'll let you know when there's an update — quietly, and only if you ask us to.</div></li>
+        </ol>
+
+        <h2>Types of Requests</h2>
+        <div class="grid-2">
+          <article class="card">
+            <h4><span class="icon">📢</span>General</h4>
+            <p>Prayers for our church, our community, or the world. Shared as we pray together.</p>
+          </article>
+          <article class="card">
+            <h4><span class="icon">🔒</span>Confidential</h4>
+            <p>We'll pray for you behind the scenes — no details shared with the wider church.</p>
+          </article>
+          <article class="card">
+            <h4><span class="icon">👤</span>Anonymous</h4>
+            <p>No name, no avatar, no trace. Just your prayer, in our hands and in God's.</p>
+          </article>
+          <article class="card">
+            <h4><span class="icon">📝</span>Named</h4>
+            <p>With your permission, we can include your name in our shared prayer updates.</p>
+          </article>
+        </div>
+        <p class="lead" style="margin-top:1rem">
+          <strong>A note on privacy:</strong> whatever you choose, your request is handled with
+          care and discretion. We only share what you explicitly say we may.</p>
+      </article>
+
+      <aside class="sidebar" aria-label="Prayer room">
+        <div class="side-card">
+          <h3>🏠 The Prayer Room</h3>
+          <p>We keep a quiet, peaceful space on our campus — open any time. Come sit, pray,
+            or simply rest. If you're in Second Life, <a href="../visit/">teleport on over</a>.</p>
+        </div>
+        <div class="side-card">
+          <h3>Our Prayer Heart</h3>
+          <ul style="margin:0">
+            <li>Prayer without ceasing — daily, not just on request</li>
+            <li>Praying together — corporate prayer is where the fire is</li>
+            <li>Praying for the unseen — those who can't pray for themselves</li>
+          </ul>
+        </div>
+        <div class="side-card">
+          <h3>Prayer Resources</h3>
+          <ul style="margin:0">
+            <li><a href="https://www.pray.com/" rel="noopener">Pray.com — daily prayers</a></li>
+            <li><a href="https://biblegateway.com/prayer/" rel="noopener">Bible Gateway prayer section</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="prayer-form">
+    <div class="container container-narrow" style="width:min(720px,100% - 2.5rem)">
+      <h2>Submit a Prayer Request</h2>
+      <p class="lead">We'd love to pray with you. Only the fields you mark “share” will be
+        used — everything else stays between you, us, and God.</p>
+
+      <form data-demo-form novalidate>
+        <div class="form-grid-2">
+          <div class="field">
+            <label for="name">Name or avatar name <small>(optional)</small></label>
+            <input type="text" id="name" name="name" placeholder="Leave blank if you prefer" />
+            <p class="field-help">Feel free to use any name or nickname you're comfortable with.</p>
+          </div>
+          <div class="field">
+            <label for="email">Email <small>(optional)</small></label>
+            <input type="email" id="email" name="email" placeholder="Only if you'd like updates" />
+            <p class="field-help">We'll never share your email. Blank = we just pray.</p>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="request-type">How should we handle this?</label>
+          <select id="request-type" name="request-type">
+            <option value="general">General — okay to share with the church</option>
+            <option value="confidential">Confidential — pray behind the scenes</option>
+            <option value="anonymous">Anonymous — no name, no details shared</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="prayer">Your prayer request</label>
+          <textarea id="prayer" name="prayer" rows="5" required placeholder="What's on your heart? As much or as little as you like."></textarea>
+        </div>
+
+        <div class="field field-checkbox">
+          <input type="checkbox" id="updates" name="updates" value="yes" />
+          <label for="updates">Please keep me posted if there's an update (only if I left an email)</label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary btn-lg">Submit Prayer Request</button>
+        </div>
+
+        <p class="notice" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2>Voices from Our Prayer Life</h2>
+      <blockquote class="quote">
+        “I'd been praying about my family's health for months. Through this ministry we heard
+        an answer — and honestly, it felt like a miracle.”
+        <span class="quote-attr">— Anonymous</span>
+      </blockquote>
+      <blockquote class="quote">
+        “The Prayer Room in Second Life is one of my favorite places. Quiet, peaceful, and
+        somehow always the right size.”
+        <span class="quote-attr">— Grace T.</span>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <h2>Ready to Pray?</h2>
+      <p>Whether it's one request or a hundred, we're here.</p>
+      <a class="btn btn-light btn-lg" href="#prayer-form">Submit a Request</a>
+      <a class="btn btn-accent btn-lg" href="../visit/">Visit the Prayer Room</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>River of Life Church</h3>
+        <p>A Christian church and ministry operating entirely within the Second Life virtual world.</p>
+        <p class="footer-motto">“Strengthened through Christ, Stronger Together.”</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer — explore">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="../about/">About Us</a></li>
+          <li><a href="../worship/">Worship With Us</a></li>
+          <li><a href="../ministries/">Ministries</a></li>
+          <li><a href="../events/">Events</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Footer — get involved">
+        <h3>Get Involved</h3>
+        <ul>
+          <li><a href="../prayer/">Prayer Requests</a></li>
+          <li><a href="../second-life/">New to Second Life</a></li>
+          <li><a href="../connect/">Contact Us</a></li>
+          <li><a href="../visit/">Visit Our Campus</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h3>Community</h3>
+        <ul class="footer-nav" style="margin:0">
+          <li><a href="https://www.facebook.com/riveroflife" rel="noopener">📘 Facebook</a></li>
+          <li><a href="https://discord.gg/riveroflife" rel="noopener">💬 Discord</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© <span class="year"></span> River of Life Church. All rights reserved.
+      This church operates entirely within the Second Life virtual world; we are not a brick-and-mortar organization.</p>
+  </div>
+</footer>
+
+</body>
+</html>
